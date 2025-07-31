@@ -1,0 +1,176 @@
+/* #Media Queries
+================================================== */
+@media all and (max-width:1709px) {
+
+    .up  .wheel-container {
+            position: relative;
+            width: 650px;
+            height: 650px;
+            margin: 0 0 0 auto;
+        }
+        .up .wheel-container::before{content: '';position: absolute;left: -15px;top: -10px;width: 681px;height: 681px;border-radius: 100%; background-color: #000000;}
+
+
+    .up .spin-button {
+            width: 200px;
+            height: 200px;}
+
+        .up .spin-button-inner{
+            width: 200px;
+            height: 200px;
+        }
+
+        .up .spin-button::before{width: 221px;height: 221px;}
+        .up .spin-button{font-size: 36.17px; line-height: 32.16px;}
+
+
+}
+
+@media all and (max-width:1440px) {
+
+     .up  .wheel-container {
+            position: relative;
+            width: 550px;
+            height: 550px;
+            margin: 0 0 0 auto;
+        }
+        .up .wheel-container::before{content: '';position: absolute;left: -15px;top: -10px;width: 581px;height: 581px;border-radius: 100%; background-color: #000000;}
+
+
+    .up .spin-button {
+            width: 180px;
+            height: 180px;}
+
+        .up .spin-button-inner{
+            width: 180px;
+            height: 180px;
+        }
+
+        .up .spin-button::before{width: 201px;height: 201px;}
+        .up .spin-button{font-size: 30.17px; line-height: 26.16px;}
+
+}
+
+@media all and (max-width:1199px) {
+
+    .up .spinner-container .left-col span h1{font-size: 60.16px;line-height: 51.16px;}
+
+     .up  .wheel-container {
+            position: relative;
+            width: 450px;
+            height: 450px;
+            margin: 0 0 0 auto;
+        }
+        .up .wheel-container::before{content: '';position: absolute;left: -10px;top: -6px;width: 470px;height: 470px;border-radius: 100%; background-color: #000000;}
+
+
+    .up .spin-button {
+            width: 150px;
+            height: 150px;}
+
+        .up .spin-button-inner{
+            width: 150px;
+            height: 150px;
+        }
+
+        .up .spin-button::before{width: 160px;height: 160px;left: -5px;top: -3px;}
+        .up .spin-button{font-size: 24.17px; line-height: 20.16px;}
+
+}
+@media all and (max-width:991px) {
+
+    .up .spinner-container .left-col span h1{font-size: 52.16px;line-height: 46.16px;}
+
+     .up  .wheel-container {
+            position: relative;
+            width: 350px;
+            height: 350px;
+            margin: 0 0 0 auto;
+        }
+        .up .wheel-container::before{content: '';position: absolute;left: -10px;top: -6px;width: 370px;height: 370px;border-radius: 100%; background-color: #000000;}
+
+
+    .up .spin-button {
+            width: 120px;
+            height: 120px;}
+
+        .up .spin-button-inner{
+            width: 120px;
+            height: 120px;
+        }
+
+        .up .spin-button::before{width: 130px;height: 130px;left: -5px;top: -3px;}
+        .up .spin-button{font-size: 20.17px; line-height: 16.16px;}
+
+        .up .wheel-pointer{top: -24px;}
+        .up .wheel-pointer svg{width: 40px;height: auto;}
+   
+
+}
+@media all and (max-width:767px) {
+    
+     .up .wrapper{background: url(../images/background_img_mob.png) no-repeat center top; background-size: 100% 85%;}
+
+    .up .main-sec {padding: 77px 0 77px 0;}
+    .up .spinner-container{flex-direction: column;}
+    .up .spinner-container .left-col{width: 100%;text-align: center;}
+    .up .main-sec .container{gap: 77px;}
+    .up .spinner-container{gap: 164px;}
+    .up .spinner-container .left-col p{max-width: 100%;max-width: 463px;margin: 0 auto;}
+
+    .up .wheel-container{margin: 0 auto;}
+   .up .spinner-container .right-col{width: 100%;text-align: center;margin: 0 auto;}
+
+}
+@media all and (max-width:640px) {	
+
+    .up .wrapper{background-size: 100% 70%;}
+
+    .up .main-sec .container{padding: 0 20px ;}
+
+    .up .main-sec {padding: 50px 0 50px 0;}
+    .up .main-sec .container{gap: 50px;}
+
+        .up .spinner-container .left-col span h1 {
+        font-size: 38.16px;
+        line-height: 34.16px;
+    }
+
+    .up .marque .inner-text{  white-space: nowrap;
+  animation: marquee 5s linear infinite;
+ height: 100%;  }
+
+}
+@media all and (max-width:480px) {	
+
+    .up .wrapper{background-size: 100% 75%;}
+
+     .up .main-sec {padding: 30px 0 30px 0;}
+    .up .main-sec .container{gap: 30px;}
+
+     .up  .wheel-container {
+            position: relative;
+            width: 250px;
+            height: 250px;
+            margin: 0 auto;
+        }
+        .up .wheel-container::before{content: '';position: absolute;left: -7px;top: -4px;width: 264px;height: 264px;border-radius: 100%; background-color: #000000;}
+
+
+    .up .spin-button {
+            width: 90px;
+            height: 90px;}
+
+        .up .spin-button-inner{
+            width: 90px;
+            height: 90px;
+        }
+
+        .up .spin-button::before{width: 100px;height: 100px;left: -5px;top: -3px;}
+        .up .spin-button{font-size: 16.17px; line-height: 12.16px;}
+
+         .up .spinner-container{gap: 70px;}
+
+      
+
+}

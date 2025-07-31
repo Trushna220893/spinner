@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Spin The Weel</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<meta name="format-detection" content="telephone=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">    
+
+<!--css styles starts-->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	
+<!--css styles ends-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+</head>
+
+<body class="up">
+<div class="wrapper">
+  <div class="marque">
+  <div class="inner-text">
+    <span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+        <path d="M8.3364 16.0079L3.20135 14.1157C3.05976 14.0634 2.93759 13.969 2.8513 13.8452C2.76501 13.7214 2.71875 13.5741 2.71875 13.4231C2.71875 13.2722 2.76501 13.1249 2.8513 13.0011C2.93759 12.8772 3.05976 12.7828 3.20135 12.7306L8.3364 10.8384L10.2286 5.70331C10.2809 5.56171 10.3753 5.43954 10.4991 5.35325C10.6229 5.26697 10.7702 5.2207 10.9212 5.2207C11.0721 5.2207 11.2194 5.26697 11.3432 5.35325C11.4671 5.43954 11.5615 5.56171 11.6137 5.70331L13.5059 10.8384L18.641 12.7306C18.7826 12.7828 18.9047 12.8772 18.991 13.0011C19.0773 13.1249 19.1236 13.2722 19.1236 13.4231C19.1236 13.5741 19.0773 13.7214 18.991 13.8452C18.9047 13.969 18.7826 14.0634 18.641 14.1157L13.5059 16.0079L11.6137 21.1429C11.5615 21.2845 11.4671 21.4067 11.3432 21.493C11.2194 21.5793 11.0721 21.6255 10.9212 21.6255C10.7702 21.6255 10.6229 21.5793 10.4991 21.493C10.3753 21.4067 10.2809 21.2845 10.2286 21.1429L8.3364 16.0079Z" stroke="#121212" stroke-width="1.49139" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M16.8848 1.49219L16.8848 5.96636" stroke="#121212" stroke-width="1.49139" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M21.3594 6.71094L21.3594 9.69372" stroke="#121212" stroke-width="1.49139" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M14.6484 3.72852L19.1226 3.72852" stroke="#121212" stroke-width="1.49139" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M19.8691 8.20117L22.8519 8.20117" stroke="#121212" stroke-width="1.49139" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      SPIN THE WHEEL
+    </span>
+  </div>
+</div> 
+
+<header>
+  <div class="container">
+    <div class="logo"><a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="53" height="36" viewBox="0 0 53 36" fill="none">
+<path d="M8.892 8.47673C7.73678 7.63932 6.30361 7.42615 4.95975 7.89326L1.70361 9.02368C1.51914 9.08823 1.39477 9.26404 1.39477 9.46192V12.2476C1.39477 12.3963 1.46656 12.5372 1.58592 12.6247C1.70528 12.7113 1.86053 12.7343 1.99993 12.6859L5.69345 11.4034C6.04235 11.282 6.41463 11.338 6.71345 11.5554C7.01394 11.7729 7.18505 12.1117 7.18505 12.4863V15.8283L3.79285 17.0063C1.52499 17.7927 0 19.9567 0 22.3891V26.2212C0 27.9767 0.807984 29.5691 2.21528 30.59C3.13344 31.255 4.19434 31.5973 5.2761 31.5973C5.85371 31.5973 6.43716 31.4996 7.00726 31.3017C9.2217 30.5331 10.7091 28.4217 10.7091 26.0479V12.0608C10.7091 10.6204 10.0464 9.31414 8.89116 8.47588L8.892 8.47673ZM5.95137 27.9096C5.38128 28.1083 4.77278 28.0183 4.28282 27.6624C3.79452 27.3083 3.51406 26.7571 3.51406 26.1498V22.8223C3.51406 21.7004 4.21771 20.6982 5.26442 20.3279L7.1742 19.6527L7.19173 26.1447C7.1934 26.9414 6.69425 27.6506 5.95054 27.9087L5.95137 27.9096Z" fill="#121212"/>
+<path d="M17.3401 3.89078C17.2199 3.80415 17.0654 3.78122 16.926 3.82963L14.1665 4.77066C13.9829 4.8352 13.8594 5.01101 13.8594 5.2089V28.2725C13.8594 28.4211 13.9303 28.5621 14.0497 28.6488C14.1281 28.7057 14.2216 28.7354 14.316 28.7354C14.3652 28.7354 14.4144 28.7277 14.462 28.7108L17.2215 27.7612C17.4068 27.6975 17.5312 27.5209 17.5312 27.3222V4.26787C17.5312 4.11839 17.4594 3.97741 17.3392 3.89078H17.3401Z" fill="#121212"/>
+<path d="M23.624 1.54434C21.8745 2.15754 20.6992 3.83151 20.6992 5.70847V25.8879C20.6992 26.0365 20.7702 26.1775 20.8895 26.2641C20.968 26.321 21.0615 26.3507 21.1558 26.3507C21.205 26.3507 21.2543 26.3431 21.3019 26.3261L24.0614 25.3766C24.2467 25.3129 24.371 25.1362 24.371 24.9375V5.87578C24.371 5.38658 24.6774 4.95174 25.1331 4.79377L28.3191 3.68713C28.5036 3.62258 28.628 3.44678 28.628 3.24889L28.6931 0.463184C28.6931 0.313707 28.6213 0.172723 28.5019 0.086094C28.3817 -0.000534733 28.2273 -0.0234659 28.0888 0.0249443L23.6232 1.54349L23.624 1.54434Z" fill="#121212"/>
+<path d="M27.5137 26.1681V12.9122C27.5137 12.7219 27.633 12.5529 27.81 12.4918L30.4351 11.5822C30.5111 11.5559 30.5945 11.5465 30.673 11.5626C30.8867 11.6068 31.0261 11.7954 31.0261 11.9983V26.1587C31.0261 27.1881 31.8491 28.023 32.8641 28.023C33.879 28.023 34.7021 27.1889 34.7021 26.1587V10.4169C34.7021 10.2267 34.8214 10.0577 34.9992 9.99569L37.6243 9.08609C37.7003 9.05976 37.7829 9.05042 37.8622 9.06655C38.0759 9.11072 38.2153 9.29926 38.2153 9.50309V26.1681C38.2153 29.1661 35.8197 31.596 32.8649 31.596C29.9101 31.596 27.5137 29.1661 27.5137 26.1681Z" fill="#121212"/>
+<path d="M46.7352 6.25781C43.7795 6.25781 41.3848 8.68766 41.3848 11.6857V35.5587C41.3848 35.7005 41.4524 35.8356 41.5667 35.918C41.6419 35.9723 41.7312 36.0003 41.8213 36.0003C41.8681 36.0003 41.9148 35.9927 41.9607 35.9774L44.595 35.0712C44.772 35.0101 44.8913 34.8419 44.8913 34.6525V26.4466C45.4656 26.6606 46.0874 26.7778 46.7352 26.7778C49.6908 26.7778 52.0855 24.3479 52.0855 21.3499V11.6857C52.0855 8.68766 49.69 6.25781 46.7352 6.25781ZM48.5732 15.4031V21.3397C48.5732 22.3691 47.7501 23.2039 46.7352 23.2039C45.7202 23.2039 44.8972 22.3691 44.8972 21.3397V11.695C44.8972 10.6657 45.7193 9.83082 46.7352 9.83082C47.751 9.83082 48.5732 10.6657 48.5732 11.695V15.4031Z" fill="#121212"/>
+</svg></a></div>
+  </div>
+</header>
+  <!--mid container starts here-->
+  <div class="mid-container">
+    <div class="main-sec">
+      <div class="container">
+        
+
+<div class="spinner-container">
+  <div class="left-col">
+    <div class="title">      
+      <span class="second"><h1>Sip on a mood with Liquid RainboW</h1></span>
+      <span class="first"><h1>Sip on a mood with Liquid RainboW</h1></span>
+    </div>
+    
+    <p>Liquid Rainbow isn’t just any flavor mix. It’s a whole vibe. And every sip hits different. Wanna feel it? Taste it. It's bold, juicy and kinda impossible to describe (in the best way).</p>
+  </div>
+  <div class="right-col">
+     <!-- Wheel Container -->
+        <div class="wheel-container" id="wheelContainer">
+            <div style="rotate: -270deg;display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;">
+                <div class="wheel" id="wheel">
+                    
+                <div class="wheel-section" data-flavor="apricotglow">
+                    <!-- <span class="flavor-text">apricotglow</span> -->
+                </div>
+                <div class="wheel-section" data-flavor="berrybold">
+                    <!-- <span class="flavor-text">berrybold</span> -->
+                </div>
+                <div class="wheel-section" data-flavor="energyrush">
+                    <!-- <span class="flavor-text">energyrush</span> -->
+                </div>
+                <div class="wheel-section" data-flavor="guavacrush">
+                    <!-- <span class="flavor-text">guavacrush</span> -->
+                </div>
+                <div class="wheel-section" data-flavor="kiwichill">
+                    <!-- <span class="flavor-text">kiwichill</span> -->
+                </div>
+            </div>
+            </div>
+            
+            
+            <!-- Spin Button -->
+            <button class="spin-button" id="spinButton">
+              <span class="spin-button-inner">
+                <span class="spin-text">
+                    <span class="second spin-text1">SPIN The wheel</span>
+                    <span class="first spin-text1">SPIN The wheel</span>
+                  </span>
+                <!-- <span class="question-mark hidden">?</span> -->
+                </span>
+            </button>
+            
+            <!-- Wheel Pointer -->
+            <div class="wheel-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="56" height="67" viewBox="0 0 56 67" fill="none">
+    <g clip-path="url(#clip0_4818_51699)">
+    <path d="M0.180115 4.44061L12.0185 63.3553C12.6475 66.5183 16.7724 67.4062 18.6407 64.7796L54.5074 14.8917C56.0797 12.6905 54.8588 9.60142 52.1952 9.10199L4.49004 0.0751931C1.91888 -0.42424 -0.337816 1.85096 0.180115 4.44061Z" fill="#121212"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_4818_51699">
+    <rect width="55.0857" height="66.3137" fill="white" transform="translate(0.105469)"/>
+    </clipPath>
+    </defs>
+    </svg></div>
+        </div>
+
+         <!-- Flavor Display -->
+         <div class="flavor-display hidden" id="flavorDisplay">
+          <h2 class="flavor-title" id="flavorTitle">Apricot Glow</h2>
+          <div class="flavor-images" id="flavorImages">
+              <div class="flavor-image active" data-index="0">
+                  <img src="images/apricot_glow_img1.png" alt="Flavor 1">
+              </div>
+              <div class="flavor-image" data-index="1">
+                  <img src="images/apricot_glow_img2.png" alt="Flavor 2">
+              </div>
+              <div class="flavor-image" data-index="2">
+                  <img src="images/product_img3.png" alt="Flavor 3">
+              </div>
+          </div>
+          
+          <!-- <div class="action-buttons">
+              <button class="buy-button" id="buyButton">Buy Now</button>
+              <button class="remix-button" id="remixButton">Remix - Spin Again</button>
+          </div> -->
+      </div>
+
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+  <!--mid container ends here-->
+  
+  </div>
+  
+<!--scripts starts here--> 
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const innerText = document.querySelector(".inner-text");
+  const originalSpan = innerText.querySelector("span");
+
+  // Duplicate the content until it fills 2x container width (for seamless loop)
+  while (innerText.scrollWidth < window.innerWidth * 2) {
+    const clone = originalSpan.cloneNode(true);
+    innerText.appendChild(clone);
+  }
+
+  // Add animation class dynamically
+  innerText.classList.add("track");
+});
+</script>
+
+<script>
+  class SpinWheelGame {
+      constructor() {
+          this.flavors = [
+              { images: [
+                  'images/apricot_glow_img1.png',
+                  'images/apricot_glow_img2.png',
+                  'images/product_img3.png'
+              ]},
+              {images: [
+                  'images/berry_bold_img1.png',
+                  'images/berry_bold_img2.png',
+                  'images/product_img3.png'
+              ]},
+              { images: [
+                  'images/energy_rush_img1.png',
+                  'images/energy_rush_img2.png',
+                  'images/product_img3.png'
+              ]},
+              { images: [
+                  'images/guava_crush_img1.png',
+                  'images/guava_crush_img2.png',
+                  'images/product_img3.png'
+              ]},
+              { images: [
+                  'images/kiwi_chill_img1.png',
+                  'images/kiwi_chill_img2.png',
+                  'images/product_img3.png'
+              ]}
+          ];
+  
+          // this.availableFlavors = [...this.flavors];
+          this.isSpinning = false;
+  
+          this.initElements();
+          this.updateWheel();
+      }
+  
+      initElements() {
+          this.wheel = document.getElementById('wheel');
+          this.spinButton = document.getElementById('spinButton');
+          this.wheelContainer = document.getElementById('wheelContainer');
+          this.flavorDisplay = document.getElementById('flavorDisplay');
+          this.flavorTitle = document.getElementById('flavorTitle');
+          this.flavorImages = document.getElementById('flavorImages');
+          this.remixButton = document.getElementById('remixButton');
+  
+          this.spinButton.addEventListener('click', () => this.spin());
+          this.remixButton.addEventListener('click', () => this.showWheelAgain());
+      }
+  
+      spin() {
+          if (this.isSpinning || this.availableFlavors.length === 0) return;
+this.isSpinning = true;
+
+// Show wheel & hide product before spin
+this.wheelContainer.classList.remove('hidden');
+this.flavorDisplay.classList.add('hidden');
+
+const spins = 4 + Math.random() * 2;
+const randomAngle = Math.random() * 360;
+const finalRotation = (spins * 360) + randomAngle;
+
+this.wheel.style.transition = "transform 3s ease-out";
+this.wheel.style.transform = `rotate(-${finalRotation}deg)`;
+
+// Wait until animation ends, then detect flavor
+this.wheel.addEventListener('transitionend', () => {
+  this.revealFlavor(finalRotation % 360);
+}, { once: true });
+      }
+  
+      revealFlavor(finalAngle) {
+          const sectionAngle = 360 / this.availableFlavors.length;
+const adjustedAngle = (270 - finalAngle + 360) % 360;
+const index = Math.floor(adjustedAngle / sectionAngle);
+
+const selectedFlavor = this.availableFlavors[index];
+
+// Show selected flavor product
+this.wheelContainer.classList.add('hidden');
+this.flavorDisplay.classList.remove('hidden');
+this.flavorTitle.textContent = `${selectedFlavor.name} Flavor`;
+
+const imgs = this.flavorImages.querySelectorAll('.flavor-image img');
+selectedFlavor.images.forEach((src, i) => imgs[i].src = src);
+
+// Remove selected flavor and update wheel
+this.availableFlavors.splice(index, 1);
+this.updateWheel();
+
+if (this.availableFlavors.length === 0) {
+  this.spinButton.style.display = 'none';
+  this.remixButton.style.display = 'none';
+}
+
+this.isSpinning = false;
+      }
+  
+      showWheelAgain() {
+          this.flavorDisplay.classList.add('hidden');
+          this.wheelContainer.classList.remove('hidden');
+      }
+  
+      updateWheel() {
+          const sectionAngle = 360 / this.availableFlavors.length;
+          const colors = { apricotglow:'#FFF36D', berrybold:'#FF7474', energyrush:'#FF90C0', guavacrush:'#9AC2FF', kiwichill:'#C5F175' };
+          let gradient = this.availableFlavors.map((f, i) => 
+              `${colors[f.name.toLowerCase()]} ${i*sectionAngle}deg ${(i+1)*sectionAngle}deg`
+          ).join(', ');
+          this.wheel.style.background = `conic-gradient(from 270deg, ${gradient})`;
+      }
+  }
+  
+  document.addEventListener('DOMContentLoaded', () => new SpinWheelGame());
+  </script>
+<!--scripts ends here-->
+</body>
+</html>
